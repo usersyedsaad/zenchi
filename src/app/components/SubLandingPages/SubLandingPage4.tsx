@@ -25,7 +25,7 @@ const SubLandingPage4 = () => {
         <p className="font-inter font-[300] text-[clamp(8px,1.67vw,18px)] leading-[clamp(29.05px,2.5vw,29.05px )] pt-[clamp(3px,1vw,24px)] text-white/70">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
+          since the 1500s, when an unknown printer took a galley of typex and
           scrambled it to make a type specimen book. It has survived not only
           five centuries, but also the leap into electronic typesetting,
           remaining essentially unchanged.

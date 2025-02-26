@@ -16,12 +16,12 @@ const SubLandingPage2 = () => {
         </p>
         <p className="font-[400] text-[3.89vw] leading-[4.74vw] tracking-[-2%] font-charter text-white z-[-1]">
           Nestled in the vibrant heart of Berlin, Zenchi brings the diverse and
-          exquisite flavours of Asia to the bustling streets of Germany's
+          exquisite flavours of Asia to the bustling streets of Germany&apos;s
           capital.
         </p>
         <p className="font-inter font-[300] text-[1.67vw] leading-[clamp(29.05px,2.02vw,29.05px )] pt-[24px] ">
           Our journey began in 2018, born from a passion for authentic Asian
-          cuisine and a desire to create a culinary bridge between East and
+          cuisine and as desire to create a culinary bridge between East and
           West.
         </p>
       </div>
