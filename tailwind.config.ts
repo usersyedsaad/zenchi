@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["var(--font-inter)"],
+        charter: ["var(--font-charter)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

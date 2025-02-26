@@ -5,8 +5,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --linearGradient: linear-gradient(
+    180deg,
+    #e3ab00 0%,
+    #efd891 29%,
+    #e3ab00 67%,
+    #d0a114 100%
+  );
 }
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -14,8 +20,91 @@
   }
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+/* globals.css */
+@font-face {
+  font-family: charter;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url("/fonts/charter_regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: charter;
+  font-style: italic;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url("/fonts/charter_italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: charter;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  src: url("/fonts/charter_bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: charter;
+  font-style: italic;
+  font-weight: bold;
+  font-stretch: normal;
+  src: url("/fonts/charter_bold_italic.woff2") format("woff2");
+}
+:root {
+  --font-charter: charter, serif;
+}
+/* Apply the font globally (optional) */
+body {
+  font-family: "charter", serif;
+  background-color: #070b0c;
+}
+
+/* Apply the font to specific elements */
+h1,
+h2,
+h3 {
+  font-family: "charter", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "charter", serif;
+  font-weight: normal;
+}
+
+em {
+  font-family: "charter", serif;
+  font-style: italic;
+}
+.moving-box {
+  position: absolute;
+  offset-path: path("M50,200 C150,50 250,350 350,200");
+  offset-distance: 0%;
+  animation: move 4s linear infinite;
+}
+
+@keyframes move {
+  from {
+    offset-distance: 0%;
+  }
+  to {
+    offset-distance: 100%;
+  }
 }
