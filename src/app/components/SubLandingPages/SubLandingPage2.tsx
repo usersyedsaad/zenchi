@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { sushiOnChopSticks } from "@/app/utils";
+
 import VerticalBars from "./SubLandingPage1Components/VerticalBars";
 import CircleDesign from "./SubLandingPage1Components/CircleDesign";
 import SushiOnChopSticks from "./SubLandingPage1Components/SushiOnChopSticks";
