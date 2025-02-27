@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 import VerticalBars from "./SubLandingPage1Components/VerticalBars";
 import CircleDesign from "./SubLandingPage1Components/CircleDesign";

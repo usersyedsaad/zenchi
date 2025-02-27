@@ -22,3 +22,13 @@ export const CoupleEating = "/imgs/LandingPage/coupleEatingSpagette.png";
 
 export const OpenButton = "/imgs/Navbar/openButton.svg";
 export const CloseButton = "/imgs/Navbar/closeButton.svg";
+
+export const sideSpegatte = "/imgs/LandingPage/sideSpegatte.png";
+
+export const circleFrame = "/imgs/LandingPage/circleFrame.png";
+
+export const topViewHotPot = "/imgs/LandingPage/topViewHotPot.png";
+
+export const map = "/imgs/LandingPage/map.png";
+
+export const social = "/imgs/LandingPage/social.png";
